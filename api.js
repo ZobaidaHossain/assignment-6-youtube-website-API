@@ -8,7 +8,7 @@ const navbar=()=>{
     <a class="btn btn-ghost normal-case text-xl w-[9.25rem] md:w-[50%]"><img src="Logo.png" alt=""></a>
   </div>
   <div class="navbar-center">
-          <a onclick="sort()" id="show-all-container" class="btn py-2.5 px-5">Sort By view</a>
+          <a onclick="handleLoadNews(1000)" id="show-all-container" class="btn py-2.5 px-5">Sort By view</a>
   </div>
   <div class="navbar-end">
     <a class="btn bg-[#FF1F3D]" href="blog.html" target="_blank">blog</a>
